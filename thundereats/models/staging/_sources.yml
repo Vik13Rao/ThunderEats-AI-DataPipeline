@@ -1,0 +1,21 @@
+sources:
+  - name: raw
+    database: THUNDER
+    schema: RAW
+    tables:
+      - name: restaurants
+        description: "This table contains the raw data of restaurants from Thundereats."
+      - name: users
+        description: "This table contains the raw data of users from Thundereats."
+      - name: food
+        description: "This table contains the raw data of food items from Thundereats."
+      - name: menu
+        description: "This table contains the raw data of menus from Thundereats."
+      - name: orders
+        description: "This table contains the raw data of orders from Thundereats."
+      - name: order_items
+        description: "This table contains the raw data of order items from Thundereats."
+      - name: reviews
+        description: "This table contains the raw data of reviews from Thundereats."
+
+        
